@@ -11,7 +11,7 @@
 
 }
 
-.members h2 ::after{
+.members h2::after{
     content: '';
     display: block;
     width: 36px;
@@ -20,6 +20,7 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .member-list{
@@ -52,5 +53,4 @@
 
 .member-list li:first-child{
     margin-left: 0;
-
 }
